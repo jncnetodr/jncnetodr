@@ -1,0 +1,395 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.page-footer .footer-copyright {
+    background-color: #212121;
+}
+
+.plr {
+    padding: 0px 35px 0px 35px
+}
+
+
+
+
+
+
+
+
+/* Delete all after */
+.pnav {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.phead {
+    font-family:
+        /*'Raleway' */
+        ARjulian, sans-serif;
+}
+
+.pfont {
+    font-family:
+        /* 'Ubuntu' */
+        ARjulian, sans-serif;
+}
+
+.psize {
+    font-size: 20px;
+}
+
+.pstory {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+
+.tabs .indicator {
+    background-color: #f44336;
+}
+
+#dropdown1,
+#dropdown2,
+#dropdown3,
+#dropdown4,
+#dropdown5,
+#dropdown0 {
+    margin-top: 69px;
+    text-align: center;
+
+}
+
+.pabtn {
+    height: auto;
+    width: auto;
+
+}
+
+.tc {
+    text-align: center;
+}
+
+#active {
+    background-color: #212121;
+    color: white;
+
+}
+
+.mtla {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml90 {
+    margin-left: 90px;
+}
+
+.pb7 {
+    padding-bottom: 7px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.plr {
+    padding: 0px 35px 0px 35px;
+}
+
+.pall {
+    padding: 25px 50px 25px 50px;
+}
+
+.indicators: hover {
+    margin: 100px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #cca92c;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+    animation: pulse 2s infinite;
+}
+
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #000;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+
+.waves-effect.waves-Dungeon .waves-ripple {
+    /* The alpha value allows the text and background color
+     of the button to still show through. */
+    background-color: #f44336;
+}
+
+.btn,
+.btn-large {
+    background-color: #757575;
+}
+
+.btn:hover,
+.btn-large:hover {
+    background-color: #616161;
+}
+
+.btn:focus,
+.btn-large:focus,
+.btn-floating:focus {
+    background-color: #424242;
+}
+
+#spara {
+    height: 200px;
+}
+
+.h250 {
+
+    max-height: 250px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.h380 {
+    max-height: 380px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#h450 {
+    height: 450px;
+}
+
+.tabs .indicator {
+    background-color: #f44336;
+}
+
+
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #f44336;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    text-transform: none;
+    color: #f44336;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #f44336;
+}
+
+nav ul a {
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 601px) nav,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i {
+    height: 66px;
+}
+
+
+@font-face {
+    font-family: 'ARjulian';
+    src: url('fonts/arjulian-webfont.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/ARJULIAN.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/arjulian-webfont.woff2') format('woff2');
+}
+
+.shadowtest {
+    box-shadow: 0px 8px 0px 0px rgba(50, 50, 50, 1);
+    border-radius: 30px;
+}
+
+.shadowtext {
+    text-shadow: 1px 1px #000;
+}
+
+.CP {
+    background-image: url(images/index/PT2.jpg)
+}
+
+.BP {
+    background-image: url(images/index/PT2.jpg)
+}
+
+.AP {
+    background-image: url(images/index/ParallaxTest.jpg)
+}
+
+.btn {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.btn-large {
+    width: 300px;
+}
+
+.btnfoot {
+    background-color: #212121;
+    color: white;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 20vw;
+}
+
+.btnfoot2 {
+    background-color: #212121;
+    color: white;
+    width: 250px;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+
+.navli {
+    width: 150px;
+}
+
+
+.btn {
+    border-radius: 30px;
+}
+
+.background {
+    background-image: url(images/index/TOS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: auto;
+}
+
+
+.tos {
+    background-color: white;
+    color: black;
+    border: 5px black solid;
+    margin-top: 100px;
+    border-radius: 30px;
+
+}
